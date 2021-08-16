@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="41" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jScrollPane2" pref="1066" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jLabel3" alignment="1" min="-2" pref="970" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="1" min="-2" pref="1016" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="285" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" pref="285" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="406" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="TABLA DISTRIBUCI&#xd3;N CHI-CUADRADO"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tbChiCuadrado">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="19" rowCount="30">
+                <Column editable="false" title="v" type="java.lang.Integer">
+                  <Data value="1"/>
+                  <Data value="2"/>
+                  <Data value="3"/>
+                  <Data value="4"/>
+                  <Data value="5"/>
+                  <Data value="6"/>
+                  <Data value="7"/>
+                  <Data value="8"/>
+                  <Data value="9"/>
+                  <Data value="10"/>
+                  <Data value="11"/>
+                  <Data value="12"/>
+                  <Data value="13"/>
+                  <Data value="14"/>
+                  <Data value="15"/>
+                  <Data value="16"/>
+                  <Data value="17"/>
+                  <Data value="18"/>
+                  <Data value="19"/>
+                  <Data value="20"/>
+                  <Data value="21"/>
+                  <Data value="22"/>
+                  <Data value="23"/>
+                  <Data value="24"/>
+                  <Data value="25"/>
+                  <Data value="26"/>
+                  <Data value="27"/>
+                  <Data value="28"/>
+                  <Data value="29"/>
+                  <Data value="30"/>
+                </Column>
+                <Column editable="false" title="0.001" type="java.lang.Double">
+                  <Data value="10.828"/>
+                  <Data value="13.816"/>
+                  <Data value="16.266"/>
+                  <Data value="18.467"/>
+                  <Data value="20.515"/>
+                  <Data value="22.458"/>
+                  <Data value="24.322"/>
+                  <Data value="26.124"/>
+                  <Data value="27.877"/>
+                  <Data value="29.588"/>
+                  <Data value="31.264"/>
+                  <Data value="32.909"/>
+                  <Data value="34.528"/>
+                  <Data value="36.123"/>
+                  <Data value="37.697"/>
+                  <Data value="39.252"/>
+                  <Data value="40.79"/>
+                  <Data value="42.312"/>
+                  <Data value="43.82"/>
+                  <Data value="45.315"/>
+                  <Data value="46.797"/>
+                  <Data value="48.268"/>
+                  <Data value="49.728"/>
+                  <Data value="51.179"/>
+                  <Data value="52.62"/>
+                  <Data value="54.052"/>
+                  <Data value="55.476"/>
+                  <Data value="59.892"/>
+                  <Data value="58.301"/>
+                  <Data value="59.703"/>
+                </Column>
+                <Column editable="false" title="0.0025" type="java.lang.Double">
+                  <Data value="9.1404"/>
+                  <Data value="11.983"/>
+                  <Data value="14.32"/>
+                  <Data value="16.424"/>
+                  <Data value="18.385"/>
+                  <Data value="20.249"/>
+                  <Data value="22.04"/>
+                  <Data value="23.774"/>
+                  <Data value="25.462"/>
+                  <Data value="27.112"/>
+                  <Data value="28.7291"/>
+                  <Data value="30.318"/>
+                  <Data value="31.883"/>
+                  <Data value="33.426"/>
+                  <Data value="34.949"/>
+                  <Data value="36.446"/>
+                  <Data value="37.946"/>
+                  <Data value="39.422"/>
+                  <Data value="40.885"/>
+                  <Data value="42.336"/>
+                  <Data value="43.775"/>
+                  <Data value="45.204"/>
+                  <Data value="46.623"/>
+                  <Data value="48.034"/>
+                  <Data value="49.435"/>
+                  <Data value="50.829"/>
+                  <Data value="52.215"/>
+                  <Data value="53.594"/>
+                  <Data value="54.966"/>
+                  <Data value="56.333"/>
+                </Column>
+                <Column editable="false" title="0.005" type="java.lang.Double">
+                  <Data value="7.879"/>
+                  <Data value="10.597"/>
+                  <Data value="12.838"/>
+                  <Data value="14.86"/>
+                  <Data value="16.75"/>
+                  <Data value="18.548"/>
+                  <Data value="20.278"/>
+                  <Data value="21.955"/>
+                  <Data value="23.589"/>
+                  <Data value="25.188"/>
+                  <Data value="26.757"/>
+                  <Data value="28.3"/>
+                  <Data value="29.819"/>
+                  <Data value="31.319"/>
+                  <Data value="32.801"/>
+                  <Data value="34.267"/>
+                  <Data value="35.718"/>
+                  <Data value="37.156"/>
+                  <Data value="38.582"/>
+                  <Data value="39.997"/>
+                  <Data value="41.401"/>
+                  <Data value="42.796"/>
+                  <Data value="44.181"/>
+                  <Data value="45.559"/>
+                  <Data value="46.928"/>
+                  <Data value="48.29"/>
+                  <Data value="49.645"/>
+                  <Data value="50.993"/>
+                  <Data value="52.336"/>
+                  <Data value="53.672"/>
+                </Column>
+                <Column editable="false" title="0.01" type="java.lang.Double">
+                  <Data value="6.635"/>
+                  <Data value="9.21"/>
+                  <Data value="11.345"/>
+                  <Data value="13.277"/>
+                  <Data value="15.086"/>
+                  <Data value="16.812"/>
+                  <Data value="18.475"/>
+                  <Data value="20.09"/>
+                  <Data value="21.666"/>
+                  <Data value="23.209"/>
+                  <Data value="24.725"/>
+                  <Data value="26.217"/>
+                  <Data value="27.688"/>
+                  <Data value="29.141"/>
+                  <Data value="30.578"/>
+                  <Data value="32.0"/>
+                  <Data value="33.409"/>
+                  <Data value="34.805"/>
+                  <Data value="36.191"/>
+                  <Data value="37.566"/>
+                  <Data value="38.932"/>
+                  <Data value="40.289"/>
+                  <Data value="41.638"/>
+                  <Data value="42.98"/>
+                  <Data value="44.314"/>
+                  <Data value="45.642"/>
+                  <Data value="46.963"/>
+                  <Data value="48.278"/>
+                  <Data value="49.588"/>
+                  <Data value="50.892"/>
+                </Column>
+                <Column editable="false" title="0.025" type="java.lang.Double">
+                  <Data value="5.024"/>
+                  <Data value="7.378"/>
+                  <Data value="9.348"/>
+                  <Data value="11.143"/>
+                  <Data value="12.833"/>
+                  <Data value="14.449"/>
+                  <Data value="16.013"/>
+                  <Data value="17.535"/>
+                  <Data value="19.023"/>
+                  <Data value="20.483"/>
+                  <Data value="21.92"/>
+                  <Data value="23.337"/>
+                  <Data value="24.736"/>
+                  <Data value="26.119"/>
+                  <Data value="27.488"/>
+                  <Data value="28.845"/>
+                  <Data value="30.191"/>
+                  <Data value="31.529"/>
+                  <Data value="32.852"/>
+                  <Data value="34.17"/>
+                  <Data value="35.479"/>
+                  <Data value="36.781"/>
+                  <Data value="38.076"/>
+                  <Data value="39.364"/>
+                  <Data value="40.646"/>
+                  <Data value="41.923"/>
+                  <Data value="43.195"/>
+                  <Data value="44.461"/>
+                  <Data value="45.722"/>
+                  <Data value="46.979"/>
+                </Column>
+                <Column editable="false" title="0.05" type="java.lang.Double">
+                  <Data value="3.841"/>
+                  <Data value="5.991"/>
+                  <Data value="7.815"/>
+                  <Data value="9.488"/>
+                  <Data value="11.07"/>
+                  <Data value="12.592"/>
+                  <Data value="14.067"/>
+                  <Data value="15.507"/>
+                  <Data value="16.919"/>
+                  <Data value="18.307"/>
+                  <Data value="19.675"/>
+                  <Data value="21.029"/>
+                  <Data value="22.362"/>
+                  <Data value="23.685"/>
+                  <Data value="24.996"/>
+                  <Data value="26.296"/>
+                  <Data value="27.587"/>
+                  <Data value="28.869"/>
+                  <Data value="30.144"/>
+                  <Data value="31.41"/>
+                  <Data value="32.671"/>
+                  <Data value="33.924"/>
+                  <Data value="35.172"/>
+                  <Data value="36.415"/>
+                  <Data value="37.652"/>
+                  <Data value="38.885"/>
+                  <Data value="40.133"/>
+                  <Data value="41.337"/>
+                  <Data value="42.557"/>
+                  <Data value="43.773"/>
+                </Column>
+                <Column editable="false" title="0.1" type="java.lang.Double">
+                  <Data value="2.706"/>
+                  <Data value="4.605"/>
+                  <Data value="6.251"/>
+                  <Data value="7.779"/>
+                  <Data value="9.236"/>
+                  <Data value="10.645"/>
+                  <Data value="12.017"/>
+                  <Data value="13.362"/>
+                  <Data value="14.684"/>
+                  <Data value="15.987"/>
+                  <Data value="17.275"/>
+                  <Data value="18.549"/>
+                  <Data value="19.812"/>
+                  <Data value="21.064"/>
+                  <Data value="22.307"/>
+                  <Data value="23.542"/>
+                  <Data value="24.769"/>
+                  <Data value="25.989"/>
+                  <Data value="27.204"/>
+                  <Data value="28.412"/>
+                  <Data value="29.615"/>
+                  <Data value="30.813"/>
+                  <Data value="32.007"/>
+                  <Data value="33.196"/>
+                  <Data value="34.382"/>
+                  <Data value="35.563"/>
+                  <Data value="36.741"/>
+                  <Data value="37.916"/>
+                  <Data value="39.087"/>
+                  <Data value="40.256"/>
+                </Column>
+                <Column editable="false" title="0.15" type="java.lang.Double">
+                  <Data value="2.072"/>
+                  <Data value="3.794"/>
+                  <Data value="5.317"/>
+                  <Data value="6.7445"/>
+                  <Data value="8.115"/>
+                  <Data value="9.446"/>
+                  <Data value="10.748"/>
+                  <Data value="12.027"/>
+                  <Data value="13.288"/>
+                  <Data value="14.534"/>
+                  <Data value="15.767"/>
+                  <Data value="16.989"/>
+                  <Data value="18.202"/>
+                  <Data value="19.406"/>
+                  <Data value="20.603"/>
+                  <Data value="21.793"/>
+                  <Data value="22.997"/>
+                  <Data value="24.156"/>
+                  <Data value="25.329"/>
+                  <Data value="26.498"/>
+                  <Data value="27.662"/>
+                  <Data value="28.822"/>
+                  <Data value="29.979"/>
+                  <Data value="31.133"/>
+                  <Data value="32.283"/>
+                  <Data value="33.4295"/>
+                  <Data value="34.5736"/>
+                  <Data value="35.715"/>
+                  <Data value="36.854"/>
+                  <Data value="37.99"/>
+                </Column>
+                <Column editable="false" title="0.2" type="java.lang.Double">
+                  <Data value="1.642"/>
+                  <Data value="3.219"/>
+                  <Data value="4.642"/>
+                  <Data value="5.989"/>
+                  <Data value="7.289"/>
+                  <Data value="8.558"/>
+                  <Data value="9.803"/>
+                  <Data value="11.03"/>
+                  <Data value="12.242"/>
+                  <Data value="13.442"/>
+                  <Data value="14.631"/>
+                  <Data value="15.812"/>
+                  <Data value="16.985"/>
+                  <Data value="18.151"/>
+                  <Data value="19.311"/>
+                  <Data value="20.465"/>
+                  <Data value="21.615"/>
+                  <Data value="22.76"/>
+                  <Data value="23.9"/>
+                  <Data value="25.038"/>
+                  <Data value="26.171"/>
+                  <Data value="27.301"/>
+                  <Data value="28.429"/>
+                  <Data value="29.553"/>
+                  <Data value="30.675"/>
+                  <Data value="31.795"/>
+                  <Data value="32.912"/>
+                  <Data value="34.027"/>
+                  <Data value="35.139"/>
+                  <Data value="36.25"/>
+                </Column>
+                <Column editable="false" title="0.25" type="java.lang.Double">
+                  <Data value="1.323"/>
+                  <Data value="2.7726"/>
+                  <Data value="4.1083"/>
+                  <Data value="5.3853"/>
+                  <Data value="6.6257"/>
+                  <Data value="7.8408"/>
+                  <Data value="9.037"/>
+                  <Data value="10.2189"/>
+                  <Data value="11.3887"/>
+                  <Data value="12.5489"/>
+                  <Data value="13.7007"/>
+                  <Data value="14.8454"/>
+                  <Data value="15.9839"/>
+                  <Data value="17.1169"/>
+                  <Data value="18.2451"/>
+                  <Data value="19.3689"/>
+                  <Data value="20.4887"/>
+                  <Data value="21.6049"/>
+                  <Data value="22.7178"/>
+                  <Data value="23.8277"/>
+                  <Data value="24.9348"/>
+                  <Data value="26.039"/>
+                  <Data value="27.1413"/>
+                  <Data value="28.2412"/>
+                  <Data value="29.3388"/>
+                  <Data value="30.4346"/>
+                  <Data value="31.5284"/>
+                  <Data value="32.621"/>
+                  <Data value="33.711"/>
+                  <Data value="34.799"/>
+                </Column>
+                <Column editable="false" title="0.3" type="java.lang.Double">
+                  <Data value="1.047"/>
+                  <Data value="2.408"/>
+                  <Data value="3.665"/>
+                  <Data value="4.878"/>
+                  <Data value="6.064"/>
+                  <Data value="7.231"/>
+                  <Data value="8.383"/>
+                  <Data value="9.524"/>
+                  <Data value="10.656"/>
+                  <Data value="11.781"/>
+                  <Data value="12.899"/>
+                  <Data value="14.011"/>
+                  <Data value="15.119"/>
+                  <Data value="16.222"/>
+                  <Data value="17.322"/>
+                  <Data value="18.418"/>
+                  <Data value="19.511"/>
+                  <Data value="20.601"/>
+                  <Data value="21.689"/>
+                  <Data value="22.775"/>
+                  <Data value="23.858"/>
+                  <Data value="24.939"/>
+                  <Data value="29.018"/>
+                  <Data value="27.096"/>
+                  <Data value="28.172"/>
+                  <Data value="29.246"/>
+                  <Data value="30.319"/>
+                  <Data value="31.391"/>
+                  <Data value="32.461"/>
+                  <Data value="33.53"/>
+                </Column>
+                <Column editable="false" title="0.35" type="java.lang.Double">
+                  <Data value="0.8735"/>
+                  <Data value="2.099"/>
+                  <Data value="3.2831"/>
+                  <Data value="4.438"/>
+                  <Data value="5.573"/>
+                  <Data value="6.695"/>
+                  <Data value="7.806"/>
+                  <Data value="8.909"/>
+                  <Data value="10.006"/>
+                  <Data value="11.097"/>
+                  <Data value="12.184"/>
+                  <Data value="13.266"/>
+                  <Data value="14.345"/>
+                  <Data value="15.421"/>
+                  <Data value="16.494"/>
+                  <Data value="17.565"/>
+                  <Data value="18.633"/>
+                  <Data value="19.699"/>
+                  <Data value="20.7638"/>
+                  <Data value="21.827"/>
+                  <Data value="22.888"/>
+                  <Data value="23.947"/>
+                  <Data value="25.006"/>
+                  <Data value="26.063"/>
+                  <Data value="27.118"/>
+                  <Data value="28.173"/>
+                  <Data value="29.227"/>
+                  <Data value="30.279"/>
+                  <Data value="31.331"/>
+                  <Data value="32.382"/>
+                </Column>
+                <Column editable="false" title="0.4" type="java.lang.Double">
+                  <Data value="0.708"/>
+                  <Data value="1.833"/>
+                  <Data value="2.946"/>
+                  <Data value="4.045"/>
+                  <Data value="5.132"/>
+                  <Data value="6.211"/>
+                  <Data value="7.283"/>
+                  <Data value="8.351"/>
+                  <Data value="9.414"/>
+                  <Data value="10.473"/>
+                  <Data value="11.53"/>
+                  <Data value="12.584"/>
+                  <Data value="13.636"/>
+                  <Data value="14.685"/>
+                  <Data value="15.733"/>
+                  <Data value="16.78"/>
+                  <Data value="17.824"/>
+                  <Data value="18.868"/>
+                  <Data value="19.91"/>
+                  <Data value="20.951"/>
+                  <Data value="21.991"/>
+                  <Data value="23.031"/>
+                  <Data value="24.069"/>
+                  <Data value="25.106"/>
+                  <Data value="26.143"/>
+                  <Data value="27.179"/>
+                  <Data value="28.214"/>
+                  <Data value="29.249"/>
+                  <Data value="30.283"/>
+                  <Data value="31.316"/>
+                </Column>
+                <Column editable="false" title="0.45" type="java.lang.Double">
+                  <Data value="0.571"/>
+                  <Data value="1.597"/>
+                  <Data value="2.643"/>
+                  <Data value="3.687"/>
+                  <Data value="4.728"/>
+                  <Data value="5.765"/>
+                  <Data value="6.8"/>
+                  <Data value="7.833"/>
+                  <Data value="8.863"/>
+                  <Data value="9.892"/>
+                  <Data value="10.919"/>
+                  <Data value="11.946"/>
+                  <Data value="12.9717"/>
+                  <Data value="13.996"/>
+                  <Data value="15.019"/>
+                  <Data value="16.043"/>
+                  <Data value="17.065"/>
+                  <Data value="18.086"/>
+                  <Data value="19.107"/>
+                  <Data value="20.127"/>
+                  <Data value="21.147"/>
+                  <Data value="22.166"/>
+                  <Data value="23.185"/>
+                  <Data value="24.204"/>
+                  <Data value="25.222"/>
+                  <Data value="26.239"/>
+                  <Data value="27.257"/>
+                  <Data value="28.274"/>
+                  <Data value="29.291"/>
+                  <Data value="30.307"/>
+                </Column>
+                <Column editable="false" title="0.55" type="java.lang.Double">
+                  <Data value="0.357"/>
+                  <Data value="1.196"/>
+                  <Data value="2.109"/>
+                  <Data value="3.047"/>
+                  <Data value="3.996"/>
+                  <Data value="4.952"/>
+                  <Data value="5.913"/>
+                  <Data value="6.877"/>
+                  <Data value="7.843"/>
+                  <Data value="8.812"/>
+                  <Data value="9.783"/>
+                  <Data value="10.755"/>
+                  <Data value="11.728"/>
+                  <Data value="12.703"/>
+                  <Data value="13.679"/>
+                  <Data value="14.656"/>
+                  <Data value="15.633"/>
+                  <Data value="16.611"/>
+                  <Data value="17.589"/>
+                  <Data value="18.569"/>
+                  <Data value="19.549"/>
+                  <Data value="20.529"/>
+                  <Data value="21.509"/>
+                  <Data value="22.491"/>
+                  <Data value="23.472"/>
+                  <Data value="24.454"/>
+                  <Data value="25.437"/>
+                  <Data value="26.419"/>
+                  <Data value="27.403"/>
+                  <Data value="28.386"/>
+                </Column>
+                <Column editable="false" title="0.6" type="java.lang.Double">
+                  <Data value="0.275"/>
+                  <Data value="1.022"/>
+                  <Data value="1.869"/>
+                  <Data value="2.753"/>
+                  <Data value="3.655"/>
+                  <Data value="4.57"/>
+                  <Data value="5.493"/>
+                  <Data value="6.423"/>
+                  <Data value="7.357"/>
+                  <Data value="8.295"/>
+                  <Data value="9.237"/>
+                  <Data value="10.182"/>
+                  <Data value="11.129"/>
+                  <Data value="12.078"/>
+                  <Data value="13.03"/>
+                  <Data value="13.983"/>
+                  <Data value="14.937"/>
+                  <Data value="15.893"/>
+                  <Data value="16.85"/>
+                  <Data value="17.809"/>
+                  <Data value="18.768"/>
+                  <Data value="19.729"/>
+                  <Data value="20.69"/>
+                  <Data value="21.652"/>
+                  <Data value="22.616"/>
+                  <Data value="23.579"/>
+                  <Data value="24.544"/>
+                  <Data value="25.509"/>
+                  <Data value="26.475"/>
+                  <Data value="27.442"/>
+                </Column>
+                <Column editable="false" title="0.65" type="java.lang.Double">
+                  <Data value="0.206"/>
+                  <Data value="0.862"/>
+                  <Data value="1.642"/>
+                  <Data value="2.47"/>
+                  <Data value="3.325"/>
+                  <Data value="4.197"/>
+                  <Data value="5.081"/>
+                  <Data value="5.975"/>
+                  <Data value="6.876"/>
+                  <Data value="7.783"/>
+                  <Data value="8.695"/>
+                  <Data value="9.612"/>
+                  <Data value="10.532"/>
+                  <Data value="11.455"/>
+                  <Data value="12.381"/>
+                  <Data value="13.309"/>
+                  <Data value="14.241"/>
+                  <Data value="15.174"/>
+                  <Data value="16.108"/>
+                  <Data value="17.046"/>
+                  <Data value="17.984"/>
+                  <Data value="18.924"/>
+                  <Data value="19.866"/>
+                  <Data value="20.808"/>
+                  <Data value="21.752"/>
+                  <Data value="22.698"/>
+                  <Data value="23.644"/>
+                  <Data value="24.591"/>
+                  <Data value="25.539"/>
+                  <Data value="26.488"/>
+                </Column>
+                <Column editable="false" title="0.7" type="java.lang.Double">
+                  <Data value="0.148"/>
+                  <Data value="0.713"/>
+                  <Data value="1.424"/>
+                  <Data value="2.195"/>
+                  <Data value="3.0"/>
+                  <Data value="3.828"/>
+                  <Data value="4.671"/>
+                  <Data value="5.527"/>
+                  <Data value="6.393"/>
+                  <Data value="7.267"/>
+                  <Data value="8.148"/>
+                  <Data value="9.034"/>
+                  <Data value="9.926"/>
+                  <Data value="10.821"/>
+                  <Data value="11.721"/>
+                  <Data value="12.624"/>
+                  <Data value="13.531"/>
+                  <Data value="14.44"/>
+                  <Data value="15.352"/>
+                  <Data value="16.266"/>
+                  <Data value="17.182"/>
+                  <Data value="18.101"/>
+                  <Data value="19.021"/>
+                  <Data value="19.943"/>
+                  <Data value="20.867"/>
+                  <Data value="21.792"/>
+                  <Data value="22.719"/>
+                  <Data value="23.647"/>
+                  <Data value="24.577"/>
+                  <Data value="25.508"/>
+                </Column>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor Por defecto"/>
+            </Property>
+            <Property name="debugGraphicsOptions" type="int" value="-1"/>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Valores de la probabilidad: p"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tbChiCuadrado2">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="11" rowCount="30">
+                <Column editable="false" title="v" type="java.lang.Integer">
+                  <Data value="1"/>
+                  <Data value="2"/>
+                  <Data value="3"/>
+                  <Data value="4"/>
+                  <Data value="5"/>
+                  <Data value="6"/>
+                  <Data value="7"/>
+                  <Data value="8"/>
+                  <Data value="9"/>
+                  <Data value="10"/>
+                  <Data value="11"/>
+                  <Data value="12"/>
+                  <Data value="13"/>
+                  <Data value="14"/>
+                  <Data value="15"/>
+                  <Data value="16"/>
+                  <Data value="17"/>
+                  <Data value="18"/>
+                  <Data value="19"/>
+                  <Data value="20"/>
+                  <Data value="21"/>
+                  <Data value="22"/>
+                  <Data value="23"/>
+                  <Data value="24"/>
+                  <Data value="25"/>
+                  <Data value="26"/>
+                  <Data value="27"/>
+                  <Data value="28"/>
+                  <Data value="29"/>
+                  <Data value="30"/>
+                </Column>
+                <Column editable="false" title="0.75" type="java.lang.Double">
+                  <Data value="0.102"/>
+                  <Data value="0.575"/>
+                  <Data value="1.213"/>
+                  <Data value="1.927"/>
+                  <Data value="2.675"/>
+                  <Data value="3.455"/>
+                  <Data value="4.255"/>
+                  <Data value="5.071"/>
+                  <Data value="5.898"/>
+                  <Data value="6.737"/>
+                  <Data value="7.584"/>
+                  <Data value="8.438"/>
+                  <Data value="9.299"/>
+                  <Data value="10.165"/>
+                  <Data value="11.036"/>
+                  <Data value="11.912"/>
+                  <Data value="12.791"/>
+                  <Data value="13.675"/>
+                  <Data value="14.562"/>
+                  <Data value="15.451"/>
+                  <Data value="16.344"/>
+                  <Data value="17.239"/>
+                  <Data value="18.137"/>
+                  <Data value="19.037"/>
+                  <Data value="19.939"/>
+                  <Data value="20.843"/>
+                  <Data value="21.749"/>
+                  <Data value="22.657"/>
+                  <Data value="23.566"/>
+                  <Data value="24.477"/>
+                </Column>
+                <Column editable="false" title="0.8" type="java.lang.Double">
+                  <Data value="0.064"/>
+                  <Data value="0.446"/>
+                  <Data value="1.005"/>
+                  <Data value="1.649"/>
+                  <Data value="2.343"/>
+                  <Data value="3.07"/>
+                  <Data value="3.822"/>
+                  <Data value="4.594"/>
+                  <Data value="5.38"/>
+                  <Data value="6.179"/>
+                  <Data value="6.989"/>
+                  <Data value="7.807"/>
+                  <Data value="8.634"/>
+                  <Data value="9.467"/>
+                  <Data value="10.307"/>
+                  <Data value="11.152"/>
+                  <Data value="12.002"/>
+                  <Data value="12.857"/>
+                  <Data value="13.716"/>
+                  <Data value="14.578"/>
+                  <Data value="15.445"/>
+                  <Data value="16.314"/>
+                  <Data value="17.187"/>
+                  <Data value="18.062"/>
+                  <Data value="18.94"/>
+                  <Data value="19.82"/>
+                  <Data value="20.703"/>
+                  <Data value="21.588"/>
+                  <Data value="22.475"/>
+                  <Data value="23.364"/>
+                </Column>
+                <Column editable="false" title="0.85" type="java.lang.Double">
+                  <Data value="0.035"/>
+                  <Data value="0.325"/>
+                  <Data value="0.797"/>
+                  <Data value="1.366"/>
+                  <Data value="1.993"/>
+                  <Data value="2.661"/>
+                  <Data value="3.358"/>
+                  <Data value="4.078"/>
+                  <Data value="4.816"/>
+                  <Data value="5.57"/>
+                  <Data value="6.336"/>
+                  <Data value="7.113"/>
+                  <Data value="7.9"/>
+                  <Data value="8.696"/>
+                  <Data value="9.499"/>
+                  <Data value="10.309"/>
+                  <Data value="11.124"/>
+                  <Data value="11.946"/>
+                  <Data value="12.772"/>
+                  <Data value="13.603"/>
+                  <Data value="14.439"/>
+                  <Data value="15.278"/>
+                  <Data value="16.121"/>
+                  <Data value="16.968"/>
+                  <Data value="17.818"/>
+                  <Data value="18.671"/>
+                  <Data value="19.527"/>
+                  <Data value="20.385"/>
+                  <Data value="21.246"/>
+                  <Data value="22.11"/>
+                </Column>
+                <Column editable="false" title="0.9" type="java.lang.Double">
+                  <Data value="0.016"/>
+                  <Data value="0.211"/>
+                  <Data value="0.584"/>
+                  <Data value="1.064"/>
+                  <Data value="1.61"/>
+                  <Data value="2.204"/>
+                  <Data value="2.833"/>
+                  <Data value="3.49"/>
+                  <Data value="4.168"/>
+                  <Data value="4.865"/>
+                  <Data value="5.578"/>
+                  <Data value="6.304"/>
+                  <Data value="7.042"/>
+                  <Data value="7.79"/>
+                  <Data value="8.547"/>
+                  <Data value="9.312"/>
+                  <Data value="10.085"/>
+                  <Data value="10.865"/>
+                  <Data value="11.651"/>
+                  <Data value="12.443"/>
+                  <Data value="13.24"/>
+                  <Data value="14.041"/>
+                  <Data value="14.848"/>
+                  <Data value="15.659"/>
+                  <Data value="16.473"/>
+                  <Data value="17.292"/>
+                  <Data value="18.114"/>
+                  <Data value="18.939"/>
+                  <Data value="19.768"/>
+                  <Data value="20.559"/>
+                </Column>
+                <Column editable="false" title="0.95" type="java.lang.Double">
+                  <Data value="0.004"/>
+                  <Data value="0.103"/>
+                  <Data value="0.352"/>
+                  <Data value="0.711"/>
+                  <Data value="1.145"/>
+                  <Data value="1.635"/>
+                  <Data value="2.167"/>
+                  <Data value="2.733"/>
+                  <Data value="3.325"/>
+                  <Data value="3.94"/>
+                  <Data value="4.575"/>
+                  <Data value="5.226"/>
+                  <Data value="5.892"/>
+                  <Data value="6.571"/>
+                  <Data value="7.261"/>
+                  <Data value="7.962"/>
+                  <Data value="8.672"/>
+                  <Data value="9.39"/>
+                  <Data value="10.117"/>
+                  <Data value="10.851"/>
+                  <Data value="11.591"/>
+                  <Data value="12.338"/>
+                  <Data value="13.091"/>
+                  <Data value="13.848"/>
+                  <Data value="14.611"/>
+                  <Data value="15.379"/>
+                  <Data value="16.151"/>
+                  <Data value="16.928"/>
+                  <Data value="17.708"/>
+                  <Data value="18.493"/>
+                </Column>
+                <Column editable="false" title="0.975" type="java.lang.Double">
+                  <Data value="0.001"/>
+                  <Data value="0.051"/>
+                  <Data value="0.216"/>
+                  <Data value="0.484"/>
+                  <Data value="0.831"/>
+                  <Data value="1.237"/>
+                  <Data value="1.69"/>
+                  <Data value="2.18"/>
+                  <Data value="2.7"/>
+                  <Data value="3.247"/>
+                  <Data value="3.816"/>
+                  <Data value="4.404"/>
+                  <Data value="5.009"/>
+                  <Data value="5.629"/>
+                  <Data value="6.262"/>
+                  <Data value="6.908"/>
+                  <Data value="7.564"/>
+                  <Data value="8.231"/>
+                  <Data value="8.907"/>
+                  <Data value="9.591"/>
+                  <Data value="10.283"/>
+                  <Data value="10.982"/>
+                  <Data value="11.689"/>
+                  <Data value="12.401"/>
+                  <Data value="13.12"/>
+                  <Data value="13.844"/>
+                  <Data value="14.573"/>
+                  <Data value="15.308"/>
+                  <Data value="16.047"/>
+                  <Data value="16.791"/>
+                </Column>
+                <Column editable="false" title="0.99" type="java.lang.Double">
+                  <Data value="0.0"/>
+                  <Data value="0.02"/>
+                  <Data value="0.115"/>
+                  <Data value="0.297"/>
+                  <Data value="0.554"/>
+                  <Data value="0.872"/>
+                  <Data value="1.239"/>
+                  <Data value="1.646"/>
+                  <Data value="2.088"/>
+                  <Data value="2.558"/>
+                  <Data value="3.053"/>
+                  <Data value="3.571"/>
+                  <Data value="4.107"/>
+                  <Data value="4.66"/>
+                  <Data value="5.229"/>
+                  <Data value="5.812"/>
+                  <Data value="6.408"/>
+                  <Data value="7.015"/>
+                  <Data value="7.633"/>
+                  <Data value="8.26"/>
+                  <Data value="8.897"/>
+                  <Data value="9.542"/>
+                  <Data value="10.196"/>
+                  <Data value="10.856"/>
+                  <Data value="11.524"/>
+                  <Data value="12.198"/>
+                  <Data value="12.879"/>
+                  <Data value="13.565"/>
+                  <Data value="14.256"/>
+                  <Data value="14.953"/>
+                </Column>
+                <Column editable="false" title="0.995" type="java.lang.Double">
+                  <Data value="0.0"/>
+                  <Data value="0.01"/>
+                  <Data value="0.072"/>
+                  <Data value="0.207"/>
+                  <Data value="0.412"/>
+                  <Data value="0.676"/>
+                  <Data value="0.989"/>
+                  <Data value="1.344"/>
+                  <Data value="1.735"/>
+                  <Data value="2.156"/>
+                  <Data value="2.603"/>
+                  <Data value="3.074"/>
+                  <Data value="3.565"/>
+                  <Data value="4.075"/>
+                  <Data value="4.601"/>
+                  <Data value="5.142"/>
+                  <Data value="5.697"/>
+                  <Data value="6.265"/>
+                  <Data value="6.844"/>
+                  <Data value="7.434"/>
+                  <Data value="8.034"/>
+                  <Data value="8.643"/>
+                  <Data value="9.26"/>
+                  <Data value="9.886"/>
+                  <Data value="10.52"/>
+                  <Data value="11.16"/>
+                  <Data value="11.808"/>
+                  <Data value="12.461"/>
+                  <Data value="13.121"/>
+                  <Data value="13.787"/>
+                </Column>
+                <Column editable="false" title="0.9975" type="java.lang.Double">
+                  <Data value="0.0"/>
+                  <Data value="0.005"/>
+                  <Data value="0.044"/>
+                  <Data value="0.144"/>
+                  <Data value="0.307"/>
+                  <Data value="0.526"/>
+                  <Data value="0.794"/>
+                  <Data value="1.104"/>
+                  <Data value="1.45"/>
+                  <Data value="1.827"/>
+                  <Data value="2.232"/>
+                  <Data value="2.661"/>
+                  <Data value="3.111"/>
+                  <Data value="3.582"/>
+                  <Data value="4.069"/>
+                  <Data value="4.573"/>
+                  <Data value="5.091"/>
+                  <Data value="5.623"/>
+                  <Data value="6.167"/>
+                  <Data value="6.722"/>
+                  <Data value="7.288"/>
+                  <Data value="7.864"/>
+                  <Data value="8.45"/>
+                  <Data value="9.044"/>
+                  <Data value="9.646"/>
+                  <Data value="10.256"/>
+                  <Data value="10.8733"/>
+                  <Data value="11.497"/>
+                  <Data value="12.127"/>
+                  <Data value="12.765"/>
+                </Column>
+                <Column editable="false" title="0.999" type="java.lang.Double">
+                  <Data value="0.0"/>
+                  <Data value="0.002"/>
+                  <Data value="0.024"/>
+                  <Data value="0.091"/>
+                  <Data value="0.21"/>
+                  <Data value="0.381"/>
+                  <Data value="0.598"/>
+                  <Data value="0.857"/>
+                  <Data value="1.152"/>
+                  <Data value="1.479"/>
+                  <Data value="1.834"/>
+                  <Data value="2.214"/>
+                  <Data value="2.617"/>
+                  <Data value="3.041"/>
+                  <Data value="3.483"/>
+                  <Data value="3.942"/>
+                  <Data value="4.416"/>
+                  <Data value="4.905"/>
+                  <Data value="5.407"/>
+                  <Data value="5.921"/>
+                  <Data value="6.447"/>
+                  <Data value="6.983"/>
+                  <Data value="7.529"/>
+                  <Data value="8.085"/>
+                  <Data value="8.649"/>
+                  <Data value="9.222"/>
+                  <Data value="9.803"/>
+                  <Data value="10.391"/>
+                  <Data value="10.986"/>
+                  <Data value="11.588"/>
+                </Column>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor Por defecto"/>
+            </Property>
+            <Property name="debugGraphicsOptions" type="int" value="-1"/>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Valores de la probabilidad: p"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
